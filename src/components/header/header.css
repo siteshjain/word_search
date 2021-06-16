@@ -1,0 +1,56 @@
+
+.main{
+    height: 36vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main h2{
+    text-transform: capitalize;
+    font-size: 60px;
+    color: white;
+    font-family:monospace;
+    font-weight: bold;
+}
+.MuiInputBase-input{
+    color: #fff !important;
+    font-size: x-large !important; 
+}
+.MuiFormLabel-root{
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 1.3rem !important;
+}
+.option{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white !important;
+    
+}
+.MuiInputLabel-formControl {
+    top: -5px;
+}
+
+.search{
+    width: 45%;
+    color: aliceblue !important;
+}
+.select{
+    width: 35%;
+    color: white;
+   
+}
+
+@media(max-width:900px){
+    .main{
+        height: 24vh;
+    }
+    .main h2{
+        font-size: 12vw;
+    }
+    
+}
